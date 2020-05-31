@@ -1,0 +1,50 @@
+*{
+     padding: 0px;
+     margin: 0px;
+
+}
+h1{
+     text-align: center;
+     
+}
+hr{
+     background-color: black;
+     height: 0.5px;
+}
+body{background-color: rgb(240, 238, 238);}
+.con{
+     background-color: rgb(201, 199, 199);
+     widows: 100%;
+     height: 100%;
+     border: solid black 2px;
+}
+.blocks{
+     padding: 50px;
+     height: 500px;
+     border:solid black 2px;
+
+
+}
+#css_coding{
+     display: none;
+}
+footer{
+     width: 100%;
+     background: black;
+     text-align: center;
+  }
+  footer a{
+      color: white;}
+
+@media only screen and (max-width: 801px) {
+     .blocks{
+          width: 55%;
+          float: left;
+          height: 16cm;
+     }
+     #block{
+          
+          width: 45%;
+          float: left;
+     }
+}
